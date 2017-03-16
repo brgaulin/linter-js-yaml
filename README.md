@@ -1,24 +1,15 @@
-# linter-js-yaml
+# Atom Linter for YamlLint
 
 This package will parse your YAML files in Atom through
-[js-yaml](https://github.com/connec/yaml-js), exposing any issues reported.
+[yamllint.py](https://github.com/adrienverge/yamllint), exposing any issues reported.
 
 #### Installation
 
 ```
+$ sudo pip install yamllint
 $ apm install linter-js-yaml
 ```
 
 #### Settings
 
-You can configure linter-js-yaml by editing ~/.atom/config.cson (choose Open Your Config in Atom menu) or in Preferences:
-
-```cson
-'linter-js-yaml':
-  'customTags': [
-    "!yaml"
-    "!include"
-  ]
-```
-
-* `customTags`: List of YAML custom tags. (Default: scalar)
+[Documentation on YamlLint.py](https://yamllint.readthedocs.io/en/latest/)
